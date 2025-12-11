@@ -14,7 +14,7 @@ import warnings
 # GENERAL CONFIGURATION
 # ==============================================================================
 st.set_page_config(
-    page_title="Finance Optimization Dashboard (Pro)", 
+    page_title="Finance Optimization Dashboard", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -233,7 +233,7 @@ def load_data(etf_file, assets_file, m1_file, m2_file):
 # USER INTERFACE (MAIN)
 # ==============================================================================
 
-st.title("📊 Finance Pro Dashboard: GP Analysis")
+st.title("📊 Finance Dashboard")
 st.markdown("---")
 
 # --- SIDEBAR: CONFIGURATION ---
